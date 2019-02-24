@@ -1,0 +1,551 @@
+.menubar{
+    width: 23%;
+    height: 100%;
+    background: #f5f6f7;
+    float: left;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+.search1{
+    background-color: #eff1f2;
+    width: 100%;
+    height: 50px;
+    display: flex
+    
+}
+.search1 input{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 5px 0px 0px 5px;
+    margin: 10px 0px 0px 20px;
+    
+
+}
+.search1 input:focus{
+    border: 1px solid red;
+    outline: none
+}
+.menu{
+    width: 35%;
+    padding-left: 25px;
+}
+.menu h2{
+    border-bottom: solid red 3px;
+}
+.ul1{
+    height: 400px;
+    width: 90%
+}
+.ul1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 340px;
+    padding-left: 25px;
+    margin-top: 70px;
+}
+.ul1 ul li {
+    border-bottom: 0.5px solid grey;
+    list-style-type: none;
+}
+.anteinterdum{
+    padding-left: 25px;
+    width: 55%
+}
+.anteinterdum h2{
+    border-bottom: solid red 3px;
+}
+.bear{
+    padding-left: 25px;
+    width: 90%
+}
+.bear img{
+    width: 90%;
+    border-radius: 8px
+}
+.bear h3{
+    width: 90%;
+    font-size: 15px;
+    font-weight: normal;
+    border-bottom: 3px solid grey
+    
+}
+.mountain{
+    padding-left: 25px;
+    width: 90%
+}
+.mountain img{
+    width: 90%;
+    border-radius: 8px
+}
+.mountain h3{
+    width: 90%;
+    font-size: 15px;
+    font-weight: normal;
+    border-bottom: 3px solid grey;
+    margin-bottom: 70px;
+}
+.computer{
+    padding-left: 25px;
+    width: 90%
+}
+.computer img{
+    width: 90%;
+    border-radius: 8px
+}
+.computer h3{
+    width: 90%;
+    font-size: 15px;
+    font-weight: normal;
+    border-bottom: 3px solid grey;
+    margin-bottom: 30px;
+}
+.computer input{
+    width: 80px;
+    height: 35px;
+    background-color: #f5f6f7;
+    border: 2px solid #f56a6a;
+    border-radius: 5px
+}
+.git{
+    padding-left:25px; 
+    width: 55%;
+    margin-top: 110px;
+   
+}
+.git h2{
+    
+    border-bottom: solid red 3px;
+}
+.git2{
+    padding: 0px 10% 0px 25px;
+    margin-bottom: 50px;
+}
+.ikoni{
+    padding-left: 25px;
+    width: 85%;
+    margin-bottom: 100px;
+}
+.ikoni i{
+    font-size: 25px;
+    float: left;
+    margin-right: 10px;
+    color: red
+}
+.envelope{
+    border-bottom: 3px solid grey;
+}
+.phone{
+    border-bottom: 3px solid grey;
+}
+.home{
+    border-bottom: 3px solid grey;
+}
+.end1{
+    padding-left: 25px;
+}
+.main{
+    width: 70%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.header{
+    display: flex;
+    border-bottom: solid red 5px;
+}
+.header p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.icons{
+    margin-left: auto;
+    margin-top: 25px;
+}
+.main21{
+    margin-bottom: 70px;
+    border-bottom: solid grey 5px;
+    height:450px;
+    
+}
+.sectiontext{
+    width: 40%;
+    float: left;
+}
+.sectiontext input{
+    width: 100px;
+    height: 35px;
+    background-color: #f5f6f7;
+    border: 2px solid #f56a6a;
+    border-radius: 5px
+}
+.img1{
+    width: 55%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.mainmiddle {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid grey;
+    
+}
+.mainmiddleconcept {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap
+    
+}
+.mainmiddleconcept section{
+    height: 50%;
+    width: 50%;
+    
+    display: flex;
+    justify-content: space-between
+}
+
+.mainmiddleconceptleft {
+     height: 100%;
+     width: 35%;
+     background: white;
+     display: flex;
+     align-items: center;
+     justify-content: center
+
+}
+.iconborder {
+    border: 1px solid grey;
+    border-radius: 4px;
+    height: 120px;
+    width: 120px;
+    
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.iconborder i{
+    transform: rotate(-45deg);
+    font-size: 35px;
+    color: #f56a6a;
+}
+.mainmiddleconceptright {
+    width: 63%;
+    height: 100%;
+}
+.mainmiddleconceptright h1{
+    font-size: 20px;
+    color: #3d4449
+}
+.mainmiddleconceptright p {
+    color: grey;
+    font-size: 17px
+}
+.eratlacinia {
+     width: 100%;
+     height: 100px;
+    
+    display: flex;
+    align-items: center
+}
+.eratlacinia div {
+    width: 19%;
+    height: 75%;
+    
+    border-bottom: 4px solid #f56a6a
+}
+.eratlacinia div h1 {
+    font-size: 30px;
+    color: #3d4449;
+}
+.ipsumseddolor {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center
+}
+.ipsumseddolor div {
+    widows: 15%;
+    height: 80%;
+    border-bottom: 4px solid #f56a6a
+}
+.ipsumseddolor div h1 {
+    font-size: 30px;
+    color: #3d4449
+}
+.mainbottom {
+    width: 100%;
+    height: 1660px;
+    display: flex;
+    align-items: center
+}
+.mainbottomcommon {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap
+    
+    
+}
+.mainbottom section{
+    box-sizing:border-box 
+}
+.mainbottom1 {
+    width: 50%;
+    height: 500px;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    display: flex;
+    align-items: center
+  
+
+}
+.mainbottom2 {
+    width: 50%;
+    height: 500px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+  
+}
+.mainbottom3 {
+    width: 50%;
+    height: 500px;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center
+  
+    
+}
+.mainbottom4 {
+    width: 50%;
+    height: 500px;
+   border-top: 1px solid gray;
+   border-left: 1px solid gray;
+   border-bottom: 1px solid gray;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end
+ 
+    
+}
+.mainbottom5 {
+    width: 50%;
+    height: 500px;
+    border-top: 1px solid grey;
+    border-right: 1px solid gray;
+    display: flex;
+    align-items: center
+  
+   
+}
+.mainbottom6 {
+    width: 50%;
+    height: 500px;
+    border-top: 1px solid grey;
+    border-left: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+  
+    
+}
+.interdumaenean {
+    width: 93%;
+    height: 90%;
+    
+    
+}
+.nullaametdolore {
+    width: 93%;
+    height: 90%;
+    
+}
+.tempusullamcorper {
+    width: 93%;
+    height: 90%;
+    
+}
+.sedetiamfacilis {
+    width: 93%;
+    height: 90%;
+    
+}
+.feugiatloremaenean {
+    width: 93%;
+    height: 90%;
+    
+}
+.ametvariusaliquam {
+    width: 93%;
+    height: 90%;
+    
+}
+.interdumaeneanleft {
+    width: 100%;
+    height: 60%;
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    
+    
+    
+    
+}
+.interdumaeneanleft img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+ 
+.interdumaeneanleft img:hover {
+    transform: scale(1.2,1.2)
+}
+.nullaametdoloretop {
+    width: 100%;
+    height: 60%;
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    
+    
+}
+.nullaametdoloretop img {
+    width: 100%;
+    height: 100%;
+}
+.nullaametdoloretop img:hover {
+    transform: scale(1.2,1.2)
+}
+.sedetiamfacilistop {
+    width: 100%;
+    height: 60%;
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+.sedetiamfacilistop img {
+    width: 100%;
+    height: 100%;
+}
+
+.sedetiamfacilistop img:hover {
+    transform: scale(1.2,1.2)
+}
+.feugiatloremaeneantop {
+    width: 100%;
+    height: 60%;
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+.feugiatloremaeneantop img {
+    width: 100%;
+    height: 100%;
+}
+.feugiatloremaeneantop img:hover {
+    transform: scale(1.2,1.2)
+}
+.ametvariusaliquamtop{
+    width: 100%;
+    height: 60%;
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+.ametvariusaliquamtop img{
+    width: 100%;
+    height: 100%;
+}
+
+.ametvariusaliquamtop img:hover {
+    transform: scale(1.2,1.2)
+}
+.tempusullamcorpertop{
+    width: 100%;
+    height: 60%;
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+.tempusullamcorpertop img {
+    width: 100%;
+    height: 100%;
+}
+.tempusullamcorpertop img:hover {
+    transform: scale(1.2,1.2)
+}
+.mainbottom h1 {
+    font-size: 20px;
+    color: #3d4449;
+    margin: 0;
+}
+.mainbottom p {
+    color: gray;
+    margin: 0
+}
+
+.interdumaeneanbottom {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.interdumaeneanbottom a {
+    border: 2px solid #f56a6a;
+    border-radius: 4px;
+    width: 15%;
+    height: 15%;
+    padding-left: 23px;
+    padding-top: 9px;
+    color: #f56a6a;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
